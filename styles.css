@@ -1,0 +1,407 @@
+body {
+        margin: 0;
+        padding: 0;
+        
+}
+
+.main {
+    background-image: url(image/salon.png);
+    width: 100%;
+    height: 955px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+  
+}
+
+.list a { 
+    text-decoration: none;
+    color: #fff;  
+}
+
+
+
+.header {
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    
+    
+    
+}
+
+.list {
+    font-weight:600;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+    font-size: 21px;
+    color: #fff;
+    margin-top: 3%; 
+    margin-left: 2%;
+}
+
+.list span {
+    margin-right: 35px;
+}
+
+.logo {
+   margin-top: 2%;
+    margin-left: 25%;
+}
+
+.anchorBtn {
+    margin-right: 2%;
+    margin-left: auto;
+    height: 40px;
+    width: 150px;
+    margin-top: 2.7%;
+	background: transparent;
+    border: 3px solid #fff;
+}
+
+.anchorBtn a {
+    font-weight:600;
+    font-size: 17px;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes slideFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    
+}
+
+.home {
+    text-align: center;
+    color: #fff;
+    margin-top: 13%;
+    width: 100%;
+    animation: slideFromBottom 1s forwards;
+   
+    
+}
+
+.home h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 68px;
+    font-family:'Open Sans', Corbel Light, sans-serif;
+    font-weight: 100;
+    
+}
+
+.home p{
+    font-size: 30px;
+    font-family:'Open Sans', Corbel Light, sans-serif;
+    color: #999;
+   
+}
+
+
+      
+      
+     
+ 
+
+
+
+
+
+
+
+
+
+.info{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fcfbf7;
+    color: black;
+    text-align: center;
+    height: 400px;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+.loc, .tic, .phone {
+    margin: 0px 170px;
+    width: 60px;
+    height: 60px;
+}
+
+.br {
+    height: 140px;
+    width: 2px;
+    margin-top: -2%;
+    background-color: #e6e6e4;
+    border-radius: 5px;
+}
+
+.item {
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.services {
+height: 1400px;
+width: 100%;
+padding:5% 0;
+}
+
+.services h1 { 
+    font-family: 'Open Sans', Corbel Light, sans-serif; 
+    font-size: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-family: 'Open Sans', Corbel Light, sans-serif; 
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.serviceList {
+    padding: 3% 30%;
+    font-family: 'Open Sans', Corbel Light, sans-serif; 
+}
+
+.time {
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 5px; 
+}
+
+.options h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+
+.signUp {
+   margin-left: 45%;
+   margin-top: 2%;
+    height: 60px;
+    width: 12%;
+	background: #000;
+   border: none; 
+}
+
+.signUp a {
+    font-weight:600;
+    font-size: 20px;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.photos{
+    width: 100%;
+    height: 955px;
+}
+
+.stylist {
+    float: right;
+    width: 65%;
+    height: 956px;
+}
+
+.work {
+    float: left;
+    width: 35%;
+    height: 477.5px;
+}
+
+
+
+
+
+
+
+
+
+.about {
+    width: 100%;
+    height: 865px;
+    background-color:#fcfbf7 ;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+}
+
+.aboutCompany {
+    padding: 15% 0;
+    margin-left: 20%;
+    float: left;
+}
+
+.aboutCompany h1{
+    font-size: 40px;
+    
+}
+
+
+.aboutCompany h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.aboutFoto {
+    float: right;
+    padding: 8% 0;
+    margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+.masters {
+    width: 100%;
+    height: 1300px;
+    font-family: 'Open Sans', Corbel Light, sans-serif;
+    text-align: center;
+}
+
+.acquaintance h1 {
+    margin-top: 7%;
+    font-size: 40px;
+}
+
+.acquaintance h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.mastersPhoto img {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+.image-container {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .image-container img {
+        transition: 1.2s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    }
+    .image-container:hover img {
+        transform: scale(1.2); /* Увеличиваем масштаб */
+    }
+    .text-overlay {
+        position: absolute;
+        top: 90%;
+        left: 3%;
+        color: white;
+        opacity: 0;
+        font-size: 20px;
+    }
+    .image-container:hover .text-overlay {
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+    position:relative;
+    overflow:hidden;
+}
+
+.maps {
+   
+    width:100%;
+     height:360px;
+    
+    border: none; 
+}
+
+
+.footer {
+    margin-top: -2%;
+    background-color: #0d0d0d;
+    height: 550px;
+    color: #fff;
+    text-align: center;
+font-family: 'Open Sans', Corbel Light, sans-serif;
+
+}
+
+.footer h1 {
+    padding: 9%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer h2 {
+    margin-top: -9%;
+    font-size: 35px; 
+    font-weight: 100;
+}
+
+.footer p{
+    
+    font-size: 20px;
+    
+}
+
+
+
+
